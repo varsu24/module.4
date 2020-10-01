@@ -1,8 +1,8 @@
 (function(window){
-var SpeakHello=new Object();
+var speakHello=new Object();
 var speakWord="Hello";
 SpeakHello.speak=function(name){
 console.log(speakWord+" "+name);
 };
-window.SpeakHello=SpeakHello;
-});
+window.speakHello=SpeakHello;
+})(window);
