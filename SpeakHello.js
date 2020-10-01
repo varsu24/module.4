@@ -1,6 +1,6 @@
 (function(window){
 var SpeakHello=new Object();
-var SpeakWord="Hello";
+var speakWord="Hello";
 SpeakHello.speak=function(name){
 console.log(SpeakWord+" "+name);
 };
