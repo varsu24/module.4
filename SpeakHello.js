@@ -2,7 +2,7 @@
 var SpeakHello=new Object();
 var speakWord="Hello";
 SpeakHello.speak=function(name){
-console.log(SpeakWord+" "+name);
+console.log(speakWord+" "+name);
 };
 window.SpeakHello=SpeakHello;
 });
