@@ -1,9 +1,9 @@
 (function{(window){
-var GoodBye=new Object();
+var goodBye=new Object();
 var speakWord="Good Bye";
-GoodBye.speak=function speek(name){
+goodBye.speak=function speak(name){
 console.log(speakWord+" "+name);
 };
-window.GoodBye=GoodBye;
-});
+window.goodBye=goodBye;
+})(window);
 
